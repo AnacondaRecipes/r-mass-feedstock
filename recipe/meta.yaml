@@ -10,8 +10,8 @@ package:
 source:
   fn: MASS_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/MASS_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/MASS/MASS_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/MASS_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/MASS/MASS_{{ version }}.tar.gz
   sha256: 0dfffb2344720acb3b8bb694ba8e23615bd96f2c495cf76d7fe22690d42a090b
 
 
